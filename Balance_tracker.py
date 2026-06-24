@@ -2,8 +2,6 @@ import re
 
 balance = 0.0   # initial 
 
-message = "Uf98d75785 Confirmed. You have transferred Ksh100.00 from your KCB M-PESA account on " \
-"9/6/26 at 6:36 PM. KCB M-PESA Account balance is Ksh1,400.00. New M-PESA balance is Ksh176.11"
 
 def extract_amount(message):
     """Extracts the first amount like 1,200.50 or 500 from the message."""
